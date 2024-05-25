@@ -4,7 +4,7 @@ from pathlib import Path
 import asyncio
 import os
 
-indexcontents = '<link href="style.css" rel="stylesheet"><h1>PagesSkinDB</h1><br>'
+indexcontents = '<link href="style.css" rel="stylesheet"><title>SkinDB</title><h1>SkinDB</h1><br>'
 
 async def create_render(imagepath):
     image = Image.open(imagepath)
